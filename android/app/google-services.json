@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "281134827293",
+    "project_id": "authenter-f10a7",
+    "storage_bucket": "authenter-f10a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281134827293:android:b18c7946e4e8fdb39f03f4",
+        "android_client_info": {
+          "package_name": "com.example.authenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281134827293-agillk3pe2e1o6in6ei5qokfdqhnq6gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.authenter",
+            "certificate_hash": "8f1c3b17170babe19a4ab52564e4a15d4b163339"
+          }
+        },
+        {
+          "client_id": "281134827293-fe6h9dfi1fs4f15egu956d8vmvhqmv17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuncDpq4hdeoIcYOmaOob99xLOmr9fpMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281134827293-fe6h9dfi1fs4f15egu956d8vmvhqmv17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
