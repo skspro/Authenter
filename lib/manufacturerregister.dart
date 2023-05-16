@@ -152,7 +152,6 @@ class _ManufacturerRegState extends State<ManufacturerReg> {
                                           detailsController.text,
                                           BigInt.zero,
                                           ethClient!);
-
                                       Navigator.push(
                                           context,
                                           new MaterialPageRoute(

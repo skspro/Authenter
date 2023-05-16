@@ -3,31 +3,31 @@
 		"inputs": [
 			{
 				"internalType": "string",
-				"name": "emil",
+				"name": "_email",
 				"type": "string"
 			},
 			{
 				"internalType": "string",
-				"name": "manufacturerName",
+				"name": "_name",
 				"type": "string"
 			},
 			{
 				"internalType": "uint256",
-				"name": "establishYear",
+				"name": "_year",
 				"type": "uint256"
 			},
 			{
 				"internalType": "string",
-				"name": "addres",
+				"name": "_addrs",
 				"type": "string"
 			},
 			{
 				"internalType": "uint256",
-				"name": "rrole",
+				"name": "_role",
 				"type": "uint256"
 			}
 		],
-		"name": "addManufacturer",
+		"name": "addManufactur",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -36,37 +36,37 @@
 		"inputs": [
 			{
 				"internalType": "string",
-				"name": "cmpnyName",
+				"name": "_cmpnyname",
 				"type": "string"
 			},
 			{
 				"internalType": "uint256",
-				"name": "establishYear",
+				"name": "_estyear",
 				"type": "uint256"
 			},
 			{
 				"internalType": "string",
-				"name": "addrs1",
+				"name": "_adrs",
 				"type": "string"
 			},
 			{
 				"internalType": "string",
-				"name": "ProductName",
+				"name": "_pname",
 				"type": "string"
 			},
 			{
 				"internalType": "string",
-				"name": "OwnershipDetails",
+				"name": "_owner",
 				"type": "string"
 			},
 			{
 				"internalType": "string",
-				"name": "DetailsOfProduct",
+				"name": "_details",
 				"type": "string"
 			},
 			{
 				"internalType": "uint256",
-				"name": "Code",
+				"name": "_code",
 				"type": "uint256"
 			}
 		],
@@ -79,30 +79,12 @@
 		"inputs": [
 			{
 				"internalType": "string",
-				"name": "emailofrole",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "therole",
-				"type": "uint256"
-			}
-		],
-		"name": "addrole",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "supplierName",
+				"name": "_sname",
 				"type": "string"
 			},
 			{
 				"internalType": "string",
-				"name": "SupplierAddress",
+				"name": "_supadrs",
 				"type": "string"
 			}
 		],
@@ -115,31 +97,7 @@
 		"inputs": [
 			{
 				"internalType": "uint256",
-				"name": "code",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "own",
-				"type": "string"
-			}
-		],
-		"name": "changeownership",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "code",
+				"name": "_code",
 				"type": "uint256"
 			}
 		],
@@ -158,31 +116,7 @@
 		"inputs": [
 			{
 				"internalType": "string",
-				"name": "a",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "b",
-				"type": "string"
-			}
-		],
-		"name": "compareStrings",
-		"outputs": [
-			{
-				"internalType": "bool",
-				"name": "",
-				"type": "bool"
-			}
-		],
-		"stateMutability": "pure",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "getemail",
+				"name": "_email",
 				"type": "string"
 			}
 		],
@@ -219,31 +153,18 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "estyear",
+				"name": "year",
 				"type": "uint256"
 			},
 			{
 				"internalType": "string",
-				"name": "addrs",
+				"name": "adrs",
 				"type": "string"
 			},
 			{
 				"internalType": "uint256",
-				"name": "role1",
+				"name": "role",
 				"type": "uint256"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "owner",
-		"outputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
 			}
 		],
 		"stateMutability": "view",
@@ -261,7 +182,7 @@
 		"outputs": [
 			{
 				"internalType": "string",
-				"name": "companyname",
+				"name": "cmpnyname",
 				"type": "string"
 			},
 			{
@@ -276,12 +197,12 @@
 			},
 			{
 				"internalType": "string",
-				"name": "Pname",
+				"name": "name",
 				"type": "string"
 			},
 			{
 				"internalType": "string",
-				"name": "ownership",
+				"name": "owner",
 				"type": "string"
 			},
 			{
@@ -306,59 +227,6 @@
 				"type": "uint256"
 			}
 		],
-		"name": "roles",
-		"outputs": [
-			{
-				"internalType": "string",
-				"name": "emailrole",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "role",
-				"type": "uint256"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "suply",
-		"outputs": [
-			{
-				"internalType": "string",
-				"name": "name",
-				"type": "string"
-			},
-			{
-				"internalType": "bool",
-				"name": "authorised",
-				"type": "bool"
-			},
-			{
-				"internalType": "string",
-				"name": "addrs",
-				"type": "string"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			}
-		],
 		"name": "suppliers",
 		"outputs": [
 			{
@@ -367,52 +235,8 @@
 				"type": "string"
 			},
 			{
-				"internalType": "bool",
-				"name": "authorised",
-				"type": "bool"
-			},
-			{
 				"internalType": "string",
-				"name": "addrs",
-				"type": "string"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "code",
-				"type": "uint256"
-			}
-		],
-		"name": "viewdetails",
-		"outputs": [
-			{
-				"internalType": "string",
-				"name": "",
-				"type": "string"
-			},
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "",
+				"name": "sup_adrs",
 				"type": "string"
 			}
 		],
